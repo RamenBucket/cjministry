@@ -2,11 +2,34 @@
 .btn-custom, .btn-custom:active, .btn-custom:visited {
     background-color: white;
     color: #6148FF;
+    font-weight: bold;
 }
 
 .btn-custom:hover {
     background-color: #EA4485;
     color: white;
+    font-weight: bold;
+}
+
+.carousel-caption {
+    bottom: 14%;
+}
+
+.carousel-caption-bg {
+    background-color: #EA4485;
+    width: 50%;
+    min-width: 350px;
+    padding: 1em;
+    margin: auto;
+}
+
+.carousel-caption-bg p {
+    font-size: 1.4em;
+}
+
+.carousel-img {
+    height: 75vh;
+    object-fit: cover;
 }
 
 .navbar-custom {
