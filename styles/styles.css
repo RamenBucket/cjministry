@@ -70,3 +70,14 @@
     margin-left: 3%;
     margin-right: 3%;
 }
+
+.who-we-are {
+    width: 50%;
+    min-width: 350px;
+    margin: auto;
+    padding: 1em;
+}
+
+.who-we-are * {
+    text-align: center;
+}
