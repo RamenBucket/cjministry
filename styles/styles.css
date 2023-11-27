@@ -1,5 +1,32 @@
 
-.btn-custom, .btn-custom:active, .btn-custom:visited {
+.bible-verse {
+    background-color: #A5B7FF;
+    padding: 1em;
+    color: white;
+    overflow: hidden;
+}
+
+.bible-verse p {
+    text-align: center;
+    padding: 1em;
+}
+
+.btn-bible{
+    color: #A5B7FF;
+    border: 0;
+    font-weight: bold;
+    background-color: white;
+    display: block;
+    float: right;
+}
+
+.btn-bible:hover {
+    background-color: #EA4485;
+    color: white;
+}
+
+.btn-custom {
+    border: 0;
     background-color: white;
     color: #6148FF;
     font-weight: bold;
@@ -8,7 +35,6 @@
 .btn-custom:hover {
     background-color: #EA4485;
     color: white;
-    font-weight: bold;
 }
 
 .carousel-caption {
@@ -24,7 +50,7 @@
 }
 
 .carousel-caption-bg p {
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .carousel-img {
