@@ -1,0 +1,23 @@
+
+.btn-custom, .btn-custom:active, .btn-custom:visited {
+    background-color: white;
+    color: #6148FF;
+}
+
+.btn-custom:hover {
+    background-color: #EA4485;
+    color: white;
+}
+
+.navbar-custom {
+    background-color: #6148FF;
+}
+
+.navbar-nav > a {
+    margin-left: 10px;
+}
+
+.side-margins {
+    margin-left: 3%;
+    margin-right: 3%;
+}
