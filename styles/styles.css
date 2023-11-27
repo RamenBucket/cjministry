@@ -1,4 +1,19 @@
 
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #6148FF;
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
+
+footer h5 {
+    margin-bottom: .8em;
+}
+
 .bible-verse {
     background-color: #A5B7FF;
     padding: 1em;
@@ -37,6 +52,18 @@
     color: white;
 }
 
+.card {
+    margin-bottom: 1em;
+}
+
+.card:hover {
+    background-color: #efefef;
+}
+
+.card-title{
+    text-align: center;
+}
+
 .carousel-caption {
     bottom: 14%;
 }
@@ -56,6 +83,21 @@
 .carousel-img {
     height: 75vh;
     object-fit: cover;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 45px;
+    text-align: center;
+    background: white;
+    color: #6148FF;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    background: #EA4485;
+    color: white;
 }
 
 .navbar-custom {
