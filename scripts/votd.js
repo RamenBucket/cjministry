@@ -3,6 +3,6 @@ async function getVOTD() {
     const response_text = await response.text();
     const response_text_split = response_text.split(' - ');
 
-    const text = response_text_split[0] + "<br><i>-" +  response_text_split[1] + "<i>";
+    const text = response_text_split[0] + "<br><i>- " +  response_text_split[1] + "<i>";
     document.getElementById("myText").innerHTML = text;
 }
