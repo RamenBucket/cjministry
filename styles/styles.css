@@ -51,6 +51,11 @@ footer h5 {
     color: white;
 }
 
+.btn-overlay {
+    z-index: 10;
+    background-color: #EA4485;
+}
+
 #btn-submit {
     background-color: #EA4485;
 }
