@@ -1,3 +1,4 @@
+/* default */
 a {
     text-decoration: none;
 }
@@ -13,6 +14,18 @@ footer h5 {
     margin-bottom: .8em;
 }
 
+ul#learn-about, ul#help-needed {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* classes */
+.banner-img {
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+}
+
 .bible-verse {
     background-color: #A5B7FF;
     padding: 1em;
@@ -23,6 +36,10 @@ footer h5 {
 .bible-verse p {
     text-align: center;
     padding: 1em;
+}
+
+.breadcrumb {
+    margin-bottom: 25px;
 }
 
 .btn-bible {
@@ -53,10 +70,6 @@ footer h5 {
 
 .btn-overlay {
     z-index: 10;
-    background-color: #EA4485;
-}
-
-#btn-submit {
     background-color: #EA4485;
 }
 
@@ -131,15 +144,11 @@ input {
     border-bottom: 1px solid #000;
 }
 
-#more-comments {
-    height: 150px;
-}
-
 .navbar-custom {
     background-color: #6148FF;
 }
 
-.navbar-nav>a {
+.navbar-nav .nav-item {
     margin-left: 10px;
 }
 
@@ -148,8 +157,12 @@ input {
     margin-right: 3%;
 }
 
-ul#learn-about,
-ul#help-needed {
-    list-style-type: none;
-    padding: 0;
+/* id */
+
+#btn-submit {
+    background-color: #EA4485;
+}
+
+#more-comments {
+    height: 150px;
 }
