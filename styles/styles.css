@@ -21,7 +21,7 @@ ul#learn-about, ul#help-needed {
 
 /* classes */
 .banner-img {
-    width: 100vw;
+    width: 100%;
     height: 40vh;
     object-fit: cover;
 }
