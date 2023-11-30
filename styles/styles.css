@@ -14,7 +14,8 @@ footer h5 {
     margin-bottom: .8em;
 }
 
-ul#learn-about, ul#help-needed {
+ul#learn-about,
+ul#help-needed {
     list-style-type: none;
     padding: 0;
 }
@@ -184,4 +185,22 @@ input {
 
 #more-comments {
     height: 150px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
 }
