@@ -94,6 +94,7 @@ ul#learn-about, ul#help-needed {
     z-index: 10;
     background-color: #EA4485;
     border: 0;
+    font-weight: bold;
 }
 
 .btn-overlay:hover {
@@ -197,6 +198,12 @@ ul#learn-about, ul#help-needed {
 
 #btn-submit {
     background-color: #EA4485;
+    border: 0;
+    font-weight: bold;
+}
+
+#btn-submit:hover {
+    background-color: #A5B7FF;
 }
 
 #more-comments {

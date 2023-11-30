@@ -70,86 +70,91 @@
                 <li class="breadcrumb-item active" aria-current="page">Questions</li>
             </ol>
         </nav>
-        <form class="side-margins" onsubmit="submitForm()">
-            <div class="row my-3">
-                <fieldset>
-                    <legend>Tell Us a Bit About Yourself</legend>
-                    <div class="my-3">
-                        <label for="name" class="col-md-1">Name:</label>
-                        <input type="text" id="name" class="col-4" name="name">
-                    </div>
-                    <div class="my-3">
-                        <label for="phone" class="col-md-1">Phone:</label>
-                        <input type="text" id="phone" class="col-4" name="phone">
-                    </div>
-                    <div class="my-3">
-                        <label for="email" class="col-md-1">Email:</label>
-                        <input type="text" class="col-4" id="email" name="email">
-                    </div>
-                </fieldset>
-            </div>
-            <div class="row my-3">
-                <fieldset>
-                    <legend>Questions for Us</legend>
-                    <div class="my-3">
-                        How did you learn about us?<br>
-                        <ul id="learn-about" name="learn-about">
-                            <li>
-                                <input type="radio" value="words-of-mouth" id="words-of-mouth" name="about">
-                                <label for="words-of-mouth">Words of Mouth</label>
-                            </li>
-                            <li>
-                                <input type="radio" value="online-search" id="online-search" name="about">
-                                <label for="online-search">Online Search</label>
-                            </li>
-                            <li>
-                                <input type="radio" value="other-organizations" id="other-organizations" name="about">
-                                <label for="other-organizations">Other Organizations</label>
-                            </li>
-                            <li>
-                                <input type="radio" value="other-ways" id="other-ways" name="about">
-                                <label for="other-ways">Other</label>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="my-3">
-                        <label for="phone">What kind of help do you need / provide?</label><br>
-                        <ul id="help-needed" name="help-needed">
-                            <li>
-                                <input type="radio" value="elderly-care" id="elderly-care" name="helping">
-                                <label for="elderly-care">Elderly Care</label>
-                            </li>
-                            <li>
-                                <input type="radio" value="homeless-support" id="homeless-support" name="helping">
-                                <label for="homeless-support">Homeless Support</label>
-                            </li>
-                            <li>
-                                <input type="radio" value="mental-health" id="mental-health" name="helping">
-                                <label for="mental-health">Mental Health</label>
-                            </li>
-                            <li>
-                                <input type="radio" value="drug-abuse" id="drug-abuse" name="helping">
-                                <label for="drug-abuse">Drug Abuse</label>
-                            </li>
-                            <li>
-                                <input type="radio" value="other-helps" id="other-helps" name="helping">
-                                <label for="other-helps">Other</label>
-                            </li>
-                        </ul>
-                    </div>
-                    <div id="more-comments" class="my-3">
-                        <label for="comments">Any Comments?</label><br>
-                        <textarea id="comments" name="comments" maxlength="1000" class="w-75 my-2 h-75">
-
-                    </textarea>
-                    </div>
-                </fieldset>
-            </div>
-            <div class="row">
-                <button id="btn-submit" class="btn btn-lg btn-primary w-25 mx-auto" type="submit">Submit</button>
-            </div>
-        </form>
-        <br>
+        <img src="images/questions.jpg" alt="" class="banner-img">
+        <br><br>
+        <div class="side-margins">
+            <form class="side-margins-plus" onsubmit="submitForm()">
+                <div class="row my-3">
+                    <fieldset>
+                        <legend>Tell Us a Bit About Yourself</legend>
+                        <div class="my-3">
+                            <label for="name" class="col-md-1">Name:</label>
+                            <input type="text" id="name" class="col-4" name="name">
+                        </div>
+                        <div class="my-3">
+                            <label for="phone" class="col-md-1">Phone:</label>
+                            <input type="text" id="phone" class="col-4" name="phone">
+                        </div>
+                        <div class="my-3">
+                            <label for="email" class="col-md-1">Email:</label>
+                            <input type="text" class="col-4" id="email" name="email">
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="row my-3">
+                    <fieldset>
+                        <legend>Questions for Us</legend>
+                        <div class="my-3">
+                            How did you learn about us?<br>
+                            <ul id="learn-about" name="learn-about">
+                                <li>
+                                    <input type="radio" value="words-of-mouth" id="words-of-mouth" name="about">
+                                    <label for="words-of-mouth">Words of Mouth</label>
+                                </li>
+                                <li>
+                                    <input type="radio" value="online-search" id="online-search" name="about">
+                                    <label for="online-search">Online Search</label>
+                                </li>
+                                <li>
+                                    <input type="radio" value="other-organizations" id="other-organizations"
+                                        name="about">
+                                    <label for="other-organizations">Other Organizations</label>
+                                </li>
+                                <li>
+                                    <input type="radio" value="other-ways" id="other-ways" name="about">
+                                    <label for="other-ways">Other</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="my-3">
+                            <label for="phone">What kind of help do you need / provide?</label><br>
+                            <ul id="help-needed" name="help-needed">
+                                <li>
+                                    <input type="radio" value="elderly-care" id="elderly-care" name="helping">
+                                    <label for="elderly-care">Elderly Care</label>
+                                </li>
+                                <li>
+                                    <input type="radio" value="homeless-support" id="homeless-support" name="helping">
+                                    <label for="homeless-support">Homeless Support</label>
+                                </li>
+                                <li>
+                                    <input type="radio" value="mental-health" id="mental-health" name="helping">
+                                    <label for="mental-health">Mental Health</label>
+                                </li>
+                                <li>
+                                    <input type="radio" value="drug-abuse" id="drug-abuse" name="helping">
+                                    <label for="drug-abuse">Drug Abuse</label>
+                                </li>
+                                <li>
+                                    <input type="radio" value="other-helps" id="other-helps" name="helping">
+                                    <label for="other-helps">Other</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="more-comments" class="my-3">
+                            <label for="comments">Any Comments?</label><br>
+                            <textarea id="comments" name="comments" maxlength="1000" class="w-100 my-2 h-75"></textarea>
+                        </div>
+                    </fieldset>
+                </div>
+                <br>
+                <div class="row">
+                    <button id="btn-submit" class="btn btn-lg btn-primary w-25 mx-auto" type="submit">Submit</button>
+                </div>
+                <br>
+            </form>
+            <br>
+        </div>
     </div>
     <footer class="footer">
         <h5>Contact Us</h5>
